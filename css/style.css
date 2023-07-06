@@ -161,4 +161,10 @@ nav .container ul li a:hover{
     color: var(--color-primary);
 }
 
+
+nav .container ul li a.active{
+    background: var(--color-primary);
+    color: var(--color-white);
+}
+
 /* ============== navbar end here =============== */
