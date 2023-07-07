@@ -16,8 +16,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <!-- iconscout cdn -->
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/solid.css">
+    <!-- <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/solid.css"> -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- === swiper js link === -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
 
 
     <!-- google font -->
@@ -368,9 +372,9 @@
 
     <section class="testimonials">
         <h1>Testimonials</h1>
-        <div class="container">
-            <div class="carousel">
-                <div class="testimonial">
+        <div class="container swiper">
+            <div class="carousel slideshow-container">
+                <div class="testimonial mySlides fade">
                     <div class="head">
                         <div class="profile-area">
                             <div class="avatar">
@@ -392,7 +396,7 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque non sequi quis veritatis recusandae dignissimos amet ratione adipisci accusantium quo?</p>
                 </div>
                 <!-- == End of testimonial == -->
-                <div class="testimonial">
+                <div class="testimonial mySlides fade">
                     <div class="head">
                         <div class="profile-area">
                             <div class="avatar">
@@ -414,7 +418,7 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque non sequi quis veritatis recusandae dignissimos amet ratione adipisci accusantium quo?</p>
                 </div>
                 <!-- == End of testimonial == -->
-                <div class="testimonial">
+                <div class="testimonial mySlides fade">
                     <div class="head">
                         <div class="profile-area">
                             <div class="avatar">
@@ -436,7 +440,7 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque non sequi quis veritatis recusandae dignissimos amet ratione adipisci accusantium quo?</p>
                 </div>
                 <!-- == End of testimonial == -->
-                <div class="testimonial">
+                <div class="testimonial mySlides fade">
                     <div class="head">
                         <div class="profile-area">
                             <div class="avatar">
@@ -459,7 +463,18 @@
                 </div>
                 <!-- == End of testimonial == -->
             </div>
+            <!-- <a class="prev" onclick="plusSlides(-1)"> ❮ </a>
+            <a class="next" onclick="plusSlides(1)"> ❯ </a> -->
+            <!-- <div class="swiper-scrollbar">
+                <div class="swiper-scrollbar-drag"></div>
+            </div> -->
         </div>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+            <span class="dot" onclick="currentSlide(4)"></span> 
+          </div>
     </section>
 
     <!-- ===================== End of testimonials part here ================= -->
@@ -470,5 +485,20 @@
 
 <!-- js sheet -->
 <script src="./js/main.js"></script>
+<!-- <script>
+    const swiper = new Swiper('.swiper', {
+    
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+  });
+</script> -->
+
+
+<!-- === swiper js === -->
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+
 </body>
 </html>
