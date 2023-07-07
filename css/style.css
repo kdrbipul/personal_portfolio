@@ -494,6 +494,8 @@ section.testimonials .container {
 section.testimonials .carousel {
     display: flex;
     align-items: center;
+    /* gap: 1rem; */
+    flex-direction: column;
 }
 
 section.testimonials .testimonial {
@@ -505,6 +507,32 @@ section.testimonials .testimonial {
     font-size: 0.9rem;
     margin-bottom: 2rem;
     cursor: pointer;
+}
+
+section.testimonials .testimonial .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+section.testimonials .testimonial .head .profile-area {
+    display: flex;
+    gap: 1rem;
+}
+
+section.testimonials .testimonial .head .profile-area .avatar{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+section.testimonials .testimonial .head .starts {
+    color: var(--color-primary);
+}
+
+section.testimonials .testimonial .head .starts span {
+    font-size: 1.2rem;
 }
 
 /* ===================== Portfolio Testimonial Section CSS part end here  */
