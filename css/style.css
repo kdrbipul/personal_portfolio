@@ -638,3 +638,56 @@ section.contact form .btn:hover{
 }
 
 /* ====================== Contact Section CSS part end here */
+
+/* ====================== Footer section CSS part start here =================================== */
+footer {
+    padding-top: 5rem;
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .container ul {
+    display: flex;
+    gap: 3rem;
+}
+
+footer .container ul a {
+    color: var(--color-dark);
+    transition: var(--transition);
+}
+footer .container ul a:hover{
+    color: var(--color-primary);
+    text-decoration: underline;
+}
+
+footer .container .socials {
+    display: flex;
+    gap: 2rem;
+}
+
+footer .container .socials a {
+    background-color: var(--color-light);
+    color: var(--color-dark);
+    padding: 0.3rem;
+    border-radius: 50%;
+    transition: var(--transition);
+}
+
+footer .container .socials a:hover {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
+
+footer .copyright {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    text-align: center;
+    margin-top: 5rem;
+    padding: 2rem 0;
+    font-size: 0.8rem;
+}
+/* ====================== Footer section CSS part end here ========================================= */
