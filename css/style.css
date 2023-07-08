@@ -308,6 +308,9 @@ section.about .container {
 section.about .container .read-more-content {
     display: none;
 }
+section.about .container .read-more-content.show-content {
+    display: block;
+}
 
 section.about .container .read-more {
     display: block;
@@ -350,6 +353,14 @@ section.skills .skill .head .left {
     display: flex;
     align-items: center;
     gap: 1rem;
+}
+
+section.skills .skill .items {
+    display: none;
+}
+
+section.skills .container .skill .items.show-items {
+    display: block;
 }
 
 section.skills .skill .item {
@@ -689,6 +700,31 @@ footer .copyright {
     margin-top: 5rem;
     padding: 2rem 0;
     font-size: 0.8rem;
+}
+footer #progress{
+    /* background:#03cc65; */
+    position:fixed;
+    bottom:20px;
+    right:10px;
+    height:70px;
+    width:70px;
+    display:none;
+    place-items:center;
+    border-radius:50%;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+    cursor:pointer;
+}
+footer #progress-value{
+    display:block;
+    height:calc(100% - 15px);
+    width:calc(100% - 15px);
+    background-color:#fff;
+    border-radius:100%;
+    display:grid;
+    place-items:center;
+    font-size:35px;
+    color:#001a2e;
+
 }
 /* ====================== Footer section CSS part end here ========================================= */
 
