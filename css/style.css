@@ -661,6 +661,10 @@ footer .container {
     justify-content: space-between;
 }
 
+footer .container a h3 {
+    color: var(--color-primary);
+}
+
 footer .container ul {
     display: flex;
     gap: 3rem;
