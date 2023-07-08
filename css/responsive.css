@@ -78,7 +78,7 @@
     nav button#close-btn {
         display: none;
     }
-    /* ======================== Nav part responsive start here ================================== */
+    /* ======================== Nav part responsive end here ================================== */
 
 
 
@@ -156,7 +156,7 @@
         bottom: -1.5rem;
         left: calc(50% - 1.5rem);
     } */
-    /* ========================= Landing Section responsive start here ====================== */
+    /* ========================= Landing Section responsive end here ====================== */
 
     /* ========================= About Section responsive start here ======================= */
 
@@ -178,21 +178,21 @@
     }
     /* ========================= About Section responsive end here ======================= */
 
-    /* ========================= Skills Section responsive part start here */
+    /* ========================= Skills Section responsive part start here ======================== */
 
     section.skills .container {
         width: 94%;
     }
-    /* ========================= Skills Section responsive part end here */
+    /* ========================= Skills Section responsive part end here ============================ */
 
-    /* ========================= Services Section responsive part start here */
+    /* ========================= Services Section responsive part start here ======================= */
 
     section.services .container {
         grid-template-columns: 1fr;
     }
-    /* ========================= Services Section responsive part end here */
+    /* ========================= Services Section responsive part end here =========================== */
 
-    /* ========================= Portfolio Section responsive part start here */
+    /* ========================= Portfolio Section responsive part start here ======================== */
 
     section.recent-work .container .projects {
         grid-template-columns: 1fr;
@@ -203,7 +203,7 @@
         margin: 1.4rem 0 1rem;
         /* padding: ; */
     }
-    /* ========================= Portfolio Section responsive part end here */
+    /* ========================= Portfolio Section responsive part end here ============================= */
 
     /* ========================= Testimonial Section responsive part start here ==================== */
 
@@ -215,9 +215,9 @@
     /* section.testimonials .container .testimonial .head .starts span {
         font-size: 0.8rem;
     } */
-    /* ========================= Testimonial Section responsive part start here =================== */
+    /* ========================= Testimonial Section responsive part end here =================== */
 
-    /* ======================== Contact Section responsive part start here */
+    /* ======================== Contact Section responsive part start here ========================= */
 
     section.contact .container {
         width: 94vw;
@@ -227,9 +227,9 @@
         width: 80vw;
         margin: 0.5rem auto 0;
     }
-    /* ======================== Contact Section responsive part end here */
+    /* ======================== Contact Section responsive part end here ============================= */
 
-    /* ======================= Footer Section responsive part start here ================= */
+    /* ======================= Footer Section responsive part start here ============================= */
 
     footer .container {
         flex-direction: column;
@@ -241,7 +241,7 @@
         text-align: center;
         gap: 1.4rem;
     } */
-    /* ======================= Footer Section responsive part end here ================= */
+    /* ======================= Footer Section responsive part end here =========================== */
 
 /* ============================== Media 1100 px device end here ================================ */
 
@@ -322,7 +322,7 @@
     nav button#close-btn {
         display: none;
     }
-    /* ======================== Nav part responsive start here ================================== */
+    /* ======================== Nav part responsive end here ================================== */
 
 
 
@@ -400,7 +400,7 @@
         bottom: -1.5rem;
         left: calc(50% - 1.5rem);
     } */
-    /* ========================= Landing Section responsive start here ====================== */
+    /* ========================= Landing Section responsive end here ====================== */
 
     /* ========================= About Section responsive start here ======================= */
 
@@ -422,21 +422,21 @@
     }
     /* ========================= About Section responsive end here ======================= */
 
-    /* ========================= Skills Section responsive part start here */
+    /* ========================= Skills Section responsive part start here ==================== */
 
     section.skills .container {
         width: 94%;
     }
-    /* ========================= Skills Section responsive part end here */
+    /* ========================= Skills Section responsive part end here ====================== */
 
-    /* ========================= Services Section responsive part start here */
+    /* ========================= Services Section responsive part start here =================== */
 
     section.services .container {
         grid-template-columns: 1fr;
     }
-    /* ========================= Services Section responsive part end here */
+    /* ========================= Services Section responsive part end here ======================== */
 
-    /* ========================= Portfolio Section responsive part start here */
+    /* ========================= Portfolio Section responsive part start here ====================== */
 
     section.recent-work .container .projects {
         grid-template-columns: 1fr;
@@ -447,7 +447,7 @@
         margin: 1.4rem 0 1rem;
         /* padding: ; */
     }
-    /* ========================= Portfolio Section responsive part end here */
+    /* ========================= Portfolio Section responsive part end here ========================= */
 
     /* ========================= Testimonial Section responsive part start here ==================== */
 
@@ -459,9 +459,9 @@
     /* section.testimonials .container .testimonial .head .starts span {
         font-size: 0.8rem;
     } */
-    /* ========================= Testimonial Section responsive part start here =================== */
+    /* ========================= Testimonial Section responsive part end here =================== */
 
-    /* ======================== Contact Section responsive part start here */
+    /* ======================== Contact Section responsive part start here ============================ */
 
     section.contact .container {
         width: 94vw;
@@ -471,9 +471,9 @@
         width: 80vw;
         margin: 0.5rem auto 0;
     }
-    /* ======================== Contact Section responsive part end here */
+    /* ======================== Contact Section responsive part end here =============================== */
 
-    /* ======================= Footer Section responsive part start here ================= */
+    /* ======================= Footer Section responsive part start here =============================== */
 
     footer .container {
         flex-direction: column;
@@ -485,7 +485,7 @@
         text-align: center;
         gap: 1.4rem;
     } */
-    /* ======================= Footer Section responsive part end here ================= */
+    /* ======================= Footer Section responsive part end here =========================== */
 
 
 /* ============================== Media 992 px device end here ================================= */
@@ -568,7 +568,7 @@
     nav button#close-btn {
         display: none;
     }
-    /* ======================== Nav part responsive start here ================================== */
+    /* ======================== Nav part responsive end here ================================== */
 
 
 
@@ -646,7 +646,7 @@
         bottom: -1.5rem;
         left: calc(50% - 1.5rem);
     }
-    /* ========================= Landing Section responsive start here ====================== */
+    /* ========================= Landing Section responsive end here ====================== */
 
     /* ========================= About Section responsive start here ======================= */
 
@@ -668,21 +668,21 @@
     }
     /* ========================= About Section responsive end here ======================= */
 
-    /* ========================= Skills Section responsive part start here */
+    /* ========================= Skills Section responsive part start here ========================= */
 
     section.skills .container {
         width: 94%;
     }
-    /* ========================= Skills Section responsive part end here */
+    /* ========================= Skills Section responsive part end here ============================ */
 
-    /* ========================= Services Section responsive part start here */
+    /* ========================= Services Section responsive part start here ========================= */
 
     section.services .container {
         grid-template-columns: 1fr;
     }
-    /* ========================= Services Section responsive part end here */
+    /* ========================= Services Section responsive part end here ============================== */
 
-    /* ========================= Portfolio Section responsive part start here */
+    /* ========================= Portfolio Section responsive part start here =========================== */
 
     section.recent-work .container .projects {
         grid-template-columns: 1fr;
@@ -693,7 +693,7 @@
         margin: 1.4rem 0 1rem;
         /* padding: ; */
     }
-    /* ========================= Portfolio Section responsive part end here */
+    /* ========================= Portfolio Section responsive part end here =========================== */
 
     /* ========================= Testimonial Section responsive part start here ==================== */
 
@@ -705,9 +705,9 @@
     section.testimonials .container .testimonial .head .starts span {
         font-size: 0.8rem;
     }
-    /* ========================= Testimonial Section responsive part start here =================== */
+    /* ========================= Testimonial Section responsive part end here =================== */
 
-    /* ======================== Contact Section responsive part start here */
+    /* ======================== Contact Section responsive part start here ======================= */
 
     section.contact .container {
         width: 94vw;
@@ -717,7 +717,7 @@
         width: 80vw;
         margin: 0.5rem auto 0;
     }
-    /* ======================== Contact Section responsive part end here */
+    /* ======================== Contact Section responsive part end here =========================== */
 
     /* ======================= Footer Section responsive part start here ================= */
 
@@ -815,7 +815,7 @@
     nav button#close-btn {
         display: none;
     }
-    /* ======================== Nav part responsive start here ================================== */
+    /* ======================== Nav part responsive end here ================================== */
 
 
 
@@ -893,7 +893,7 @@
         bottom: -1.5rem;
         left: calc(50% - 1.5rem);
     }
-    /* ========================= Landing Section responsive start here ====================== */
+    /* ========================= Landing Section responsive end here ====================== */
 
     /* ========================= About Section responsive start here ======================= */
 
@@ -915,21 +915,21 @@
     }
     /* ========================= About Section responsive end here ======================= */
 
-    /* ========================= Skills Section responsive part start here */
+    /* ========================= Skills Section responsive part start here ===================== */
 
     section.skills .container {
         width: 94%;
     }
-    /* ========================= Skills Section responsive part end here */
+    /* ========================= Skills Section responsive part end here ========================== */
 
-    /* ========================= Services Section responsive part start here */
+    /* ========================= Services Section responsive part start here ======================= */
 
     section.services .container {
         grid-template-columns: 1fr;
     }
-    /* ========================= Services Section responsive part end here */
+    /* ========================= Services Section responsive part end here ============================= */
 
-    /* ========================= Portfolio Section responsive part start here */
+    /* ========================= Portfolio Section responsive part start here =========================== */
 
     section.recent-work .container .projects {
         grid-template-columns: 1fr;
@@ -940,7 +940,7 @@
         margin: 1.4rem 0 1rem;
         /* padding: ; */
     }
-    /* ========================= Portfolio Section responsive part end here */
+    /* ========================= Portfolio Section responsive part end here ============================= */
 
     /* ========================= Testimonial Section responsive part start here ==================== */
 
@@ -952,9 +952,9 @@
     section.testimonials .container .testimonial .head .starts span {
         font-size: 0.8rem;
     }
-    /* ========================= Testimonial Section responsive part start here =================== */
+    /* ========================= Testimonial Section responsive part end here =================== */
 
-    /* ======================== Contact Section responsive part start here */
+    /* ======================== Contact Section responsive part start here ============================== */
 
     section.contact .container {
         width: 94vw;
@@ -964,7 +964,7 @@
         width: 80vw;
         margin: 0.5rem auto 0;
     }
-    /* ======================== Contact Section responsive part end here */
+    /* ======================== Contact Section responsive part end here =============================== */
 
     /* ======================= Footer Section responsive part start here ================= */
 
